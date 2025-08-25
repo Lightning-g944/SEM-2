@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; padding: 0;
+    background: #f4f4f4;
+    color: #222;
+}
+header, footer {
+    background: #005a8b; color: #fff; padding: 1em;
+    text-align: center;
+}
+nav ul {
+    display: flex; list-style: none; padding: 0; justify-content: center;
+}
+nav li {
+    margin: 0 1em;
+}
+nav a {
+    color: #fff; text-decoration: none;
+}
+main {
+    max-width: 800px; margin: auto; padding: 2em;
+    background: #fff;
+}
+img {
+    width: 100%; max-width: 350px; height: auto; display: block; margin: 2em auto;
+}
+form {
+    display: flex; flex-direction: column; max-width: 300px; margin: 0 auto;
+}
+label { margin-top: 1em; }
+input, button { margin-top: 0.5em; padding: 0.5em; }
+@media (max-width: 600px) {
+    nav ul { flex-direction: column; }
+    main { padding: 1em; }
+}
